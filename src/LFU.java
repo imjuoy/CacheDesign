@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Least Frequently Used Cache
  * 
@@ -10,11 +12,12 @@ public class LFU {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		// int s = '1' - '0';
-		int a = 8;
+		String s = "mynameisjoy";
+		int[] chars = new int[26];
+		for (Character c : s.toCharArray())
+			chars[c - 'a']++;
 
-		System.out.println(a << 1);
-
+		System.out.println(Arrays.toString(chars));
 	}
 
 }
