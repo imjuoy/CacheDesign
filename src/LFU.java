@@ -11,9 +11,9 @@ public class LFU {
 		// TODO Auto-generated method stub
 
 		// int s = '1' - '0';
-		int a = 5;
+		int a = 8;
 
-		System.out.println(Integer.highestOneBit(a));
+		System.out.println(a << 1);
 
 	}
 
