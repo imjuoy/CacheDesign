@@ -18,6 +18,7 @@ public class LFU {
 			chars[c - 'a']++;
 
 		System.out.println(Arrays.toString(chars));
+		System.out.println(x);
 	}
 
 }
