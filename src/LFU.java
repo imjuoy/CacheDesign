@@ -14,11 +14,11 @@ public class LFU {
 
 		String s = "mynameisjoy";
 		int[] chars = new int[26];
-		for (Character c : s.toCharArray())
+		for (Character c : s.toCharArray()) {
 			chars[c - 'a']++;
-
-		System.out.println(Arrays.toString(chars));
-		System.out.println(x);
+			System.out.println('2' - '0');
+			System.out.println(Arrays.toString(chars));
+		}
 	}
 
 }
