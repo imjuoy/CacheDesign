@@ -12,12 +12,7 @@ public class LFU {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String s = "mynameisjoy";
-		int[] chars = new int[26];
-		for (Character c : s.toCharArray()) {
-			chars[c - 'a']++;
-			System.out.println('2' - '0');
-			System.out.println(Arrays.toString(chars));
+	
 		}
 	}
 
