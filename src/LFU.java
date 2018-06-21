@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -27,12 +26,11 @@ public class LFU {
 	}
 
 	public int get(int key) {
+		return -1;
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 	}
-}
-
 }
