@@ -18,6 +18,7 @@ public class FindSecondMaxInAnArray {
 		}
 		Integer result = max2 == null ? max1 : max2;
 		System.out.println(result);
+		System.out.println("");
 	}
 
 }
