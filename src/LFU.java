@@ -12,7 +12,7 @@ import java.util.List;
 
 public class LFU {
 
-	HashMap<Integer, Integer> cache;
+	HashMap<Integer, Integer> vals;
 	List<Integer> innerList;
 	int capacity;
 
