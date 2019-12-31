@@ -7,6 +7,21 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+class NestedInteger {
+	public boolean isInteger() {
+		return true;
+	}
+
+	public int getInteger() {
+		return 1;
+	}
+
+	public List<NestedInteger> getList() {
+		ArrayList<NestedInteger> list = new ArrayList<>();
+		return list;
+	}
+}
+
 public class FlattenNestedListIterator implements Iterator<Integer> {
 
 	Iterator<Integer> it;

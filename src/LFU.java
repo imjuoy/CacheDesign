@@ -15,6 +15,7 @@ public class LFU {
 	HashMap<Integer, Integer> vals;
 	List<Integer> innerList;
 	int capacity;
+	private LinkedHashMap cache;
 
 	public LFU(int capacity) {
 		this.cache = new LinkedHashMap<>();
