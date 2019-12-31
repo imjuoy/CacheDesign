@@ -13,6 +13,7 @@ import java.util.List;
 public class LFU {
 
 	HashMap<Integer, Integer> vals;
+	HashMap<Integer, Integer> count;
 	List<Integer> innerList;
 	int capacity;
 	private LinkedHashMap cache;
