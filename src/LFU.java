@@ -4,7 +4,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 
 /**
- * Least Frequently Used Cache
+ * Least Frequently Used Cache ( Leetcode).
  * 
  * @author subhadeepbhattacharyya
  *
