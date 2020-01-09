@@ -33,7 +33,7 @@ public class LFU {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// Logic for running the program..
+		// Logic for running the program...
 
 	}
 }
