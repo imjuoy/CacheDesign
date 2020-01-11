@@ -28,6 +28,7 @@ public class LFU {
 	}
 
 	public int get(int key) {
+		// get the value from the cache.
 		return -1;
 	}
 
